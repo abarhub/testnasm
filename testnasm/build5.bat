@@ -1,0 +1,2 @@
+nasm -f win64 test5.asm
+link.exe test5.obj /subsystem:windows /entry:WinMain  "/libpath:C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64" /nodefaultlib kernel32.lib user32.lib /largeaddressaware:no
